@@ -1,47 +1,78 @@
-<project
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>net.javaguides.maven-web-project</groupId>
-    <artifactId>MavenWebApp</artifactId>
-    <packaging>war</packaging>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>MavenWebApp Maven Webapp</name>
-    <url>http://maven.apache.org</url>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/javax.servlet/jsp-api -->
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jsp-api</artifactId>
-            <version>2.0</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
-    <build>
-        <finalName>MavenWebApp</finalName>
-        <plugins>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.5.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-</project>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+ 
+    <style>
+    h1 {
+        color: rgb(209, 0, 192);
+        font-family: inherit;
+    }
+    </style>
+    <body background colour = ""  
+    > 
+
+        <h1 style="text-align:center ;"><u>REGISTRATION FROM</u></h1>
+    </div>
+        <center>
+            <br>
+            <br>
+        <table>
+            <tr>
+                <td>Fisrt name</td>
+                <td>:</td>
+                <td><input type="text" size="10", placeholder="Fisrt name"></td>
+             
+            </tr>
+           
+             <tr>
+                <td>Last name</td>
+                <td>:</td>
+                <td><input type="text" size="10", placeholder="Last name"></td>
+            </tr>
+            
+            <tr>
+                    <td>E-mail</td>
+                    <td>:</td>
+                    <td><input type="text" size="10", placeholder="E-mail"></td>
+                </tr>
+              
+                <tr>
+                        <td>Gender</td>
+                        <td>:</td>
+                        <td>
+                                 <input type="radio" name="Male">Male
+                                 <input type="radio" name="Male">Female
+                                 <input type="radio" name="Male">others
+                        </td>
+                 </tr>
+                 <tr>
+                     <td>Date</td>
+                     <td>:</td>
+                     <td><input type="date"></td>
+                 </tr>
+                 <tr>
+                     <td>Phone Number</td>
+                     <td>:</td>
+                     <td><select>
+                         
+                            <input type="number" min=+91 max=+99>
+                           
+                          </td></select>
+                 
+                          
+                          
+                 </tr>
+
+        </table>
+        <br>
+        
+    
+                <td style="text-align: center;">
+                   <a href="login.html">
+                   <input type="submit" value="register"></a></td>
+            
+    </center>
+
+</body>
+</html>
