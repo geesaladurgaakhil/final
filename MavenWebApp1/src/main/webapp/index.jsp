@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Registration Form</title>
+        <title>Registration Form of College</title>
     </head>
  
     <style>
@@ -12,7 +12,7 @@
     <body background colour = ""  
     > 
 
-        <h1 style="text-align:center ;"><u>REGISTRATION FROM</u></h1>
+        <h1 style="text-align:center ;"><u>REGISTRATION FROM OF COLLEGE</u></h1>
     </div>
         <center>
             <br>
