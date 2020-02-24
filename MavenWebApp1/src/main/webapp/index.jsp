@@ -12,7 +12,7 @@
     <body background colour = ""  
     > 
 
-        <h1 style="text-align:center ;"><u>REGISTRATION FROM OF RAVI</u></h1>
+        <h1 style="text-align:center c;"><u>REGISTRATION FORM OF RAVI</u></h1>
     </div>
         <center>
             <br>
@@ -54,7 +54,7 @@
                  <tr>
                      <td>Phone Number</td>
                      <td>:</td>
-                     <td><select>
+                        <td><select>
                          
                             <input type="number" min=+91 max=+99>
                            
@@ -67,8 +67,7 @@
         </table>
         <br>
         
-    
-                <td style="text-align: center;">
+     <td style="text-align: center;">
                    <a href="login.html">
                    <input type="submit" value="register"></a></td>
             
