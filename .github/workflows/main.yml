@@ -1,5 +1,7 @@
 name: Share data between jobs
+
 on: [push]
+
 jobs:
   job_1:
     name: Add 3 and 7
