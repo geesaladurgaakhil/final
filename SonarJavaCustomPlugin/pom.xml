@@ -11,7 +11,7 @@
 <properties>
         <java.home>/usr/java/jdk1.8.0_45/bin/javac</java.home>
   
-		<java.plugin.version>3.13.1</java.plugin.version>
+		<java.plugin.version>3.14</java.plugin.version>
 	</properties>
 
 	<name>Java Custom Rules</name>
