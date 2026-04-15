@@ -22,7 +22,7 @@ jobs:
     runs-on: actions_runner_dev
     steps:
       - name: Download math result for job 1
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v8
         with:
           name: homework
       - shell: bash
@@ -41,7 +41,7 @@ jobs:
     runs-on: actions_runner_dev
     steps:
       - name: Download math result for job 2
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v8
         with:
           name: homework
       - name: Print the final result
